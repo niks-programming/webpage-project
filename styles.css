@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: ;
 }
 
 .section-1 {
@@ -51,9 +50,12 @@ body {
 
 .boxes {
     display: flex;
+    gap: 10px;
 }
 
 .container {
+    border-radius: 25px;
+    border-width: 5px;
     border-color: #3882F6;
     border-style: solid;
     width: 150px;
@@ -62,10 +64,12 @@ body {
 
 .box-text {
     display: flex;
+    gap: 18px;
+    text-align: center;
 }
 
 .box-text > p {
-    color: #E5E7EB;
+    color: #1F2937;
     width: 150px;
 }
 
@@ -106,6 +110,7 @@ body {
 }
 
 .call-to-action {
+    border-radius: 25px;
     background-color: #3882F6;
     display: flex;
     justify-content: space-between;
